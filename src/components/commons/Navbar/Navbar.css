@@ -1,0 +1,52 @@
+.navbarStyle{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: black;
+}
+/* .navbarStyle{
+    background-color: black;
+} */
+.fontStyle a{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 17.6px;
+    text-transform: uppercase;
+}
+.fontStyle{
+    /* padding: 10px; */
+    margin-top: 20px;
+}
+
+.bgNav.navbarStyle{
+    background-color: black;
+}
+.bgNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-block: 15px;
+}
+.logoNav{
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item::after{
+    content:'';    
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 1;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out ;
+}
+.nav-item:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

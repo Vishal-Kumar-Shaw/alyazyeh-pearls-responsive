@@ -1,0 +1,29 @@
+.section-header {
+    position: relative;
+    overflow:hidden; /*mandatory*/
+  }
+.section-header h2 {
+    /* border: 2px solid rgb(249, 246, 246); */
+    padding: 0.3em 0.8em;
+    display: inline-block;
+    position:relative;
+    color: gold;
+}
+.section-header h2::before,
+.section-header h2::after {
+    content: "";
+    width: 100vw; /*big value here*/
+    height: 1px;
+    position: absolute;
+    top: 0.6em;
+    background:rgb(249, 247, 247);
+}
+.section-header h2::after {
+    left: calc(100% + 40px); /*40px offset from the title*/
+}
+.section-header h2::before {
+    right: calc(100% + 40px);
+}
+.text-center {
+      text-align: center;
+}
