@@ -6,6 +6,7 @@ import img3 from './Images/3.jpg';
 import Title from "../commons/Title/Title";
 import './About.css'
 import AboutIcons from './AboutIcons'
+import Enquire from '../commons/Enquire/Enquire';
 
 const About = () => {
   return (
@@ -19,6 +20,7 @@ const About = () => {
       </div>
       <Title title="Our Values"/>
       <AboutIcons/>
+      <Enquire/>
 
     </div>
   )

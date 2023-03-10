@@ -42,7 +42,16 @@
     color: white;
 }
 .company-logo{
-        height: 70px;
-        width: 90px;
+        height: 90px;
+        width: 80px;
         margin-bottom: 0; 
+        margin-left: 45px;
+}
+.footer-company-header{
+    color:white;
+    padding: 2px;;
+    font-size: medium;
+    align-self: center;
+    margin-left: 20px;
+    font-family: poppins;
 }

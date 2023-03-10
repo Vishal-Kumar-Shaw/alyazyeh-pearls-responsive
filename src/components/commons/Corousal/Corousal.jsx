@@ -11,7 +11,7 @@ function Corousal() {
       <Carousel.Item>
         <img
           className="d-block w-100 pic-style"
-          src={img1}
+          src={"https://img.freepik.com/free-photo/closeup-shot-two-diamond-rings-white-surface_181624-47070.jpg?size=626&ext=jpg"}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -31,10 +31,10 @@ function Corousal() {
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='corousal-img-div'>
         <img
           className="d-block w-100 pic-styl"
-          src={img3}
+          src={"https://img.freepik.com/free-photo/beautiful-engagement-ring-with-diamonds_23-2149509236.jpg?size=626&ext=jpg"}
           alt="Third slide"
         />
 

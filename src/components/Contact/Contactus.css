@@ -22,6 +22,8 @@ body {
   grid-template-columns: 70% 30%;
 }
 .get_form_inner {
+  margin-left: 5rem;
+  margin-right: 10rem;
   display: block;
   padding: 50px 40px;
   background: #fff;
@@ -62,6 +64,7 @@ textarea {
 input[type="submit"] {
   display: inline-block;
   font-size: 16px;
+  border-radius: 25px;
   text-transform: uppercase;
   background: transparent;
   border: 2px solid;
@@ -86,6 +89,7 @@ input[type="submit"]:hover {
   padding: 45px 0 25px 30px;
   background: #050505;
   position: relative;
+  margin-left: -8rem;
 }
 .get_say_form h5 {
   color: #fff;
@@ -101,6 +105,7 @@ ul {
   display: flex;
   position: absolute;
   bottom: 40px;
+  margin-left:50px;
 }
 .get_say_social-icn a {
   font-size: 22px;
@@ -113,7 +118,7 @@ ul {
 }
 .get_say_info_sec > li {
   display: grid;
-  grid-template-columns: 40px auto;
+  grid-template-columns: 10px auto;
   align-items: center;
   margin-bottom: 40px;
 }
@@ -122,9 +127,10 @@ ul {
   display: block;
   padding: 15px 25px;
   color: #fff;
-  font-size: 16px;
+  font-size: 1vw;
   text-decoration: unset;
   font-weight: 500;
+  margin-left: 2rem;
   background: #343333;
   border-radius: 5px 0 0 5px;
   transition: background 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -135,4 +141,13 @@ ul {
 }
 .get_say_info_sec > li a:hover {
   background-color: #050505;
+}
+
+.get_say_info_sec li {
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.get_say_social-icn{
+  height: 6rem;
 }
